@@ -12,7 +12,8 @@ namespace ProjManagement.Models
         public int Priority { get; set; }    
         public DateTime Task_Start { get; set; }     
         public DateTime Task_End { get; set; }     
-        public decimal Effort {get;set;}
+        public decimal Estimated_Effort {get;set;}
+        public decimal Actual_Effort {get;set;}
         public bool Dependency {get;set;}
         public int Dependency_Id {get;set;}
         public string Status {get;set;}

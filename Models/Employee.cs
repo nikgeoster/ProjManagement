@@ -9,6 +9,7 @@ namespace ProjManagement.Models
         public string First_Name { get; set; }        
         public string Last_Name { get; set; }        
         public int UserAccount_ID { get; set; }
+        public int[] Assigned_Task_Ids {get; set;}
  
     }
 

@@ -15,9 +15,7 @@ namespace ProjManagement.Models
         public decimal Estimated_Effort {get;set;}
         public decimal Actual_Effort {get;set;}
         public bool Dependency {get;set;}
-        public int Dependency_Id {get;set;}
+        public int[] Dependency_Id {get;set;}
         public string Status {get;set;}
-
     }
-
 }

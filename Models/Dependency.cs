@@ -10,8 +10,5 @@ namespace ProjManagement.Models
         public int Task_ID { get; set; }
         public int Role_ID { get; set; }
         public string Status {get;set;}
-
-
     }
-
 }

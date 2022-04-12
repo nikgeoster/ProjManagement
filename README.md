@@ -11,4 +11,47 @@ Create an object model for a project management application.
     a.       each task has an amount of time it takes to complete 
     b.       it may have a dependency on some other task to be completed first 
     c.       It may require a user/resource of some specific type 
-Write a function to verify if a project can be completed by a given date assuming the project is started today. 
+9.       Write a function to verify if a project can be completed by a given date assuming the project is started today. 
+
+##Use Cases:
+
+Client Model
+Client Id should be unique
+
+Dependency Model:
+Dependency Type should be Role or Task
+Both RoleID and TaskId should not be null
+
+Employee Model:
+Should contain all the tasks assigned to a particular employee
+
+Project Model:
+Allocated Effort should be lesser than or equal to the number of days of the project duration
+
+Project Allocation Model:
+An Employee should be allocated to only one project
+Allocation Date should be within the project duration
+
+Project Lead Model:
+There should be atleast one lead for a project
+
+Role Model:
+List all possible unique roles available in a company
+
+Task Model:
+Allocation Date should be within the project duration
+Each task may have 0 or more dependencies
+
+Task Assignee Model:
+Each task assigned to only one employee
+
+Team Model:
+There maybe 1 or more teams for a project
+
+Team Emp Model:
+An Employee can only perform one role in a team
+An Employee can be part of multiple teams in a project
+
+User Account Model:
+An email id can be associated with only one user account
+User Type can be either Employee or Client

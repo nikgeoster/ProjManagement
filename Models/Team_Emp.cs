@@ -9,7 +9,5 @@ namespace ProjManagement.Models
         public int Employee_ID { get; set; }
         public int Team_ID { get; set; }
         public int Role_ID { get; set; }
- 
     }
-
 }

@@ -12,5 +12,4 @@ namespace ProjManagement.Models
         public string User_Type {get; set;}
         public DateTime Acct_Create_Time { get; set; }    
     }
-
 }
